@@ -29,10 +29,10 @@ module.exports = {
 
                 try {
                     const response = await axios.get(
-                        `${global.NashBot.ENDPOINT}gpt4o?prompt=${encodeURIComponent(prompt)}`
+                        `${global.NashBot.ENDPOINT}/api/gpt3?ask=${encodeURIComponent(prompt)}`
                     );
 
-                    const aiResponse = response.data.response;
+                    const aiResponse = response.data.data;
 
                     api.editMessage(
                         "[ 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝚃𝙸𝙾𝙽𝙰𝙻 𝙰𝙸 ]\n\n" +
