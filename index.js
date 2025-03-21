@@ -20,7 +20,7 @@ global.NashBoT = {
 };
 
 global.NashBot = {
-  ENDPOINT: "https://rest-api.joshuaapostol.site/",
+  ENDPOINT: "https://ccprojectsapis.zetsu.xyz/",
 };
 
 async function loadCommands() {
