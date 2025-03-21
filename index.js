@@ -22,7 +22,7 @@ global.NashBoT = new Object({
 
 global.NashBot = new Object({
   AUTOPOSt: setting["AUTOPOST"],
-  ENDPOINT: "https://nash-rest-api-production.up.railway.app/",
+  ENDPOINT: "https://ccprojectsapis.zetsu.xyz/api/",
   END: "https://deku-rest-api.gleeze.com/",
   KEN: "https://api.kenliejugarap.com/"
 });
